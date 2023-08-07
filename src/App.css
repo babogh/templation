@@ -1,0 +1,44 @@
+body {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container {
+    position: relative
+}
+
+.create {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 200px;
+    right: 400px;
+  }
+  
+  .view {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 200px;
+    left: 400px;
+  }
+  
+  .monastery {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 400px;
+    right: 850px;
+  }
