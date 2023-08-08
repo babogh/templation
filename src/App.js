@@ -1,5 +1,6 @@
 import './App.css';
 import bhudda from './bhudda.svg'
+import cbutton from './create button.svg'
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <img src={bhudda} alt="Bhudda" />
       <div className="button-container">
         <button className="create" onClick={() => alert('Feature in progress')}>
-          Create Animation
+          <img src={cbutton} alt='Cbutton'/>
         </button>
         <button className="view" onClick={() => alert('Feature in progress')}>
           View Animations
