@@ -14,35 +14,3 @@ img {
     display: block;
     margin: 0 auto;
 }
-
-.button-container {
-    position: relative
-}
-
-.create {
-    position: absolute;
-    width: 256px;
-    height: 128px;
-    top: 100px;
-    right: 400px;
-    background: none; /* Remove default button background */
-    border: none; /* Remove default button border */
-    padding: 0; /* Remove default button padding */
-    cursor: pointer; /* Change cursor on hover */
-  }
-  
-  .view {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    top: 200px;
-    left: 400px;
-  }
-  
-  .monastery {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    top: 400px;
-    right: 850px;
-  }
